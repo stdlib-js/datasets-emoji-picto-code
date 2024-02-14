@@ -109,16 +109,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-emoji-picto-code-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/datasets-emoji-picto-code-cli
 
-[test-image]: https://github.com/stdlib-js/datasets-emoji-picto-code/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/datasets-emoji-picto-code/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/actions/workflows/test.yml?query=branch:v0.2.0
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-emoji-picto-code/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/datasets-emoji-picto-code?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-emoji-picto-code@v0.2.0/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/datasets-emoji-picto-code@v0.2.0?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-emoji-picto-code.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/datasets-emoji-picto-code/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-emoji-picto-code@v0.2.0.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/datasets-emoji-picto-code@v0.2.0/main
 
 -->
 
@@ -129,20 +129,20 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/datasets-emoji-picto-code#cli
-[cli-url]: https://github.com/stdlib-js/datasets-emoji-picto-code/tree/cli
-[@stdlib/datasets-emoji-picto-code]: https://github.com/stdlib-js/datasets-emoji-picto-code/tree/main
+[cli-section]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0#cli
+[cli-url]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/tree/cli
+[@stdlib/datasets-emoji-picto-code]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/datasets-emoji-picto-code/tree/deno
-[deno-readme]: https://github.com/stdlib-js/datasets-emoji-picto-code/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/datasets-emoji-picto-code/tree/umd
-[umd-readme]: https://github.com/stdlib-js/datasets-emoji-picto-code/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/datasets-emoji-picto-code/tree/esm
-[esm-readme]: https://github.com/stdlib-js/datasets-emoji-picto-code/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/datasets-emoji-picto-code/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/tree/deno
+[deno-readme]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/tree/umd
+[umd-readme]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/tree/esm
+[esm-readme]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/datasets-emoji-picto-code@v0.2.0/blob/main/branches.md
 
 [pddl-1.0]: http://opendatacommons.org/licenses/pddl/1.0/
 
