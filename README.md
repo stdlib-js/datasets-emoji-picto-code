@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-emoji-picto-code@deno/mod.js';
+import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-emoji-picto-code@v0.2.2-deno/mod.js';
 ```
 
 #### table()
@@ -82,7 +82,7 @@ p = t[ '🦄' ];
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-emoji-picto-code@deno/mod.js';
+import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-emoji-picto-code@v0.2.2-deno/mod.js';
 
 var picto;
 var tbl;
