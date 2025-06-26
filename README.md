@@ -91,7 +91,7 @@ p = t[ '🦄' ];
 
 </section>
 
-<!-- ./notes -->
+<!-- /.notes -->
 
 <section class="examples">
 
