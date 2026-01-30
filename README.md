@@ -35,19 +35,99 @@ limitations under the License.
 
 > Map emoji pictographs to codes.
 
+<section class="installation">
 
+## Installation
 
+```bash
+npm install @stdlib/datasets-emoji-picto-code
+```
 
+Alternatively,
 
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
 
+</section>
 
+<section class="usage">
 
+## Usage
+
+```javascript
+var table = require( '@stdlib/datasets-emoji-picto-code' );
+```
+
+#### table()
+
+Returns an object mapping emoji pictographs to codes.
+
+```javascript
+var t = table();
+// returns {...}
+
+var p = t[ '😄' ];
+// returns [ ':smile:' ]
+
+p = t[ '🦄' ];
+// returns [ ':unicorn:' ]
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="notes">
+
+## Notes
+
+-   Some emoji pictographs may have **multiple** applicable codes.
+
+</section>
+
+<!-- /.notes -->
+
+<section class="examples">
+
+## Examples
+
+<!-- eslint no-undef: "error" -->
+
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var table = require( '@stdlib/datasets-emoji-picto-code' );
+
+var picto;
+var tbl;
+var i;
+
+// Get the data:
+tbl = table();
+
+// Get the emoji pictographs:
+picto = objectKeys( tbl );
+
+// Print out all the corresponding codes...
+for ( i = 0; i < picto.length; i++ ) {
+    console.log( picto[ i ] + ' => ' + tbl[ picto[ i ] ] );
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+* * *
 
 <section class="cli">
 
-
+## CLI
 
 <section class="installation">
 
@@ -65,7 +145,7 @@ npm install -g @stdlib/datasets-emoji-picto-code-cli
 
 <section class="usage">
 
-## Usage
+### Usage
 
 ```text
 Usage: emoji-picto-code [options]
@@ -82,7 +162,7 @@ Options:
 
 <section class="notes">
 
-## Notes
+### Notes
 
 -   Data is written to `stdout` as comma-separated values ([CSV][csv]), where the first line is a header line.
 
@@ -92,7 +172,7 @@ Options:
 
 <section class="examples">
 
-## Examples
+### Examples
 
 ```bash
 $ emoji-picto-code
@@ -120,9 +200,10 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 <section class="related">
 
+* * *
+
 ## See Also
 
--   <span class="package-name">[`@stdlib/datasets-emoji-picto-code`][@stdlib/datasets-emoji-picto-code]</span><span class="delimiter">: </span><span class="description">emoji pictographs and codes.</span>
 -   <span class="package-name">[`@stdlib/datasets-emoji`][@stdlib/datasets/emoji]</span><span class="delimiter">: </span><span class="description">emoji.</span>
 -   <span class="package-name">[`@stdlib/datasets-emoji-code-picto`][@stdlib/datasets/emoji-code-picto]</span><span class="delimiter">: </span><span class="description">emoji codes and pictographs.</span>
 
@@ -143,7 +224,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-### Community
+#### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -151,7 +232,7 @@ For more information on the project, filing bug reports and feature requests, an
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -161,8 +242,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-emoji-picto-code-cli.svg
-[npm-url]: https://npmjs.org/package/@stdlib/datasets-emoji-picto-code-cli
+[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-emoji-picto-code.svg
+[npm-url]: https://npmjs.org/package/@stdlib/datasets-emoji-picto-code
 
 [test-image]: https://github.com/stdlib-js/datasets-emoji-picto-code/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/datasets-emoji-picto-code/actions/workflows/test.yml?query=branch:main
@@ -177,8 +258,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
